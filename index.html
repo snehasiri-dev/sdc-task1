@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QIS College - Engineering Excellence</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">QIS College</div>
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link active" data-target="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-target="about">About</a></li>
+                <li><a href="#" class="nav-link" data-target="academics">Academics</a></li>
+                <li><a href="#" class="nav-link" data-target="placements">Placements</a></li>
+                <li><a href="#" class="nav-link" data-target="contact">Contact</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button id="signinBtn">Sign In</button>
+                <button id="signupBtn" class="signup">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+        <!-- HOME -->
+        <section id="home" class="section active">
+            <div class="content">
+                <h1>Welcome to QIS College</h1>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScQd5XudLzz2lLdxLtFY8byR1isdoMkiaR6g&s=10" alt="Qis college campus">
+                <p>QIS College of Engineering & Technology</p>
+                <p><strong>Ongole | NAAC A+ | Autonomous</strong></p>
+                <p>Established 1998 | 25+ Years Excellence</p>
+                <p>5000+ Students | 100% Placement Assistance</p>
+                <p>Approved by AICTE | Affiliated to JNTUK</p>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <div class="content">
+                <h1>About QIS College</h1>
+                 <img src=https://img.freepik.com/premium-vector/about-us_773186-1363.jpg alt="Qis college campus">
+                <p>Founded 1998 by Dr. K. Simhachalam</p>
+                <p>NAAC A+ Grade (3.47 CGPA)</p>
+                <p>Autonomous | ISO 9001:2015 Certified</p>
+                <p>100 Acres Green Campus</p>
+                <p>50+ Labs | 50,000+ Books Library</p>
+                <p>Hostel for 2000+ Students</p>
+            </div>
+        </section>
+
+        <!-- ACADEMICS -->
+        <section id="academics" class="section">
+            <div class="content">
+                <h1>Academic Programs</h1>
+                 <img src=https://thumbs.dreamstime.com/b/academic-academic-apprentice-college-degree-education-educational-institution-establishment-111559495.jpg alt="Qis college campus">
+                <p><strong>B.Tech Programs (NBA Accredited)</strong></p>
+                <p>CSE (180 seats) | ECE (180) | EEE (60)</p>
+                <p>Civil (60) | Mechanical (60)</p>
+                <p><strong>M.Tech & MBA</strong></p>
+                <p>M.Tech: CSE, VLSI | MBA (120 seats)</p>
+                <p>50+ Labs | Cisco/RedHat Centers</p>
+            </div>
+        </section>
+
+        <!-- PLACEMENTS -->
+        <section id="placements" class="section">
+            <div class="content">
+                <h1>Placement Success</h1>
+                 <img src=https://www.brainwareuniversity.ac.in/images/career-employbility.jpg alt="Qis college campus">
+                <p>100% Assistance | 95% Record</p>
+                <p>Highest: ₹28 LPA | Average: ₹6.5 LPA</p>
+                <p>TCS (150+) | Infosys (80+)</p>
+                <p>Wipro (60+) | Cognizant (50+)</p>
+                <p>500+ Offers | 6 Months Training</p>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+            <div class="content">
+                <h1>Contact Information</h1>
+                <img src=https://thumbs.dreamstime.com/b/contact-us-customer-support-hotline-people-connect-call-customer-support-contact-us-customer-support-hotline-people-connect-call-129786983.jpg alt="Qis college campus">
+                <p>Pondur Road, Ongole, AP - 523272</p>
+                <p>Phone: 08592-292955</p>
+                <p>Email: principal@qis.ac.in</p>
+                <p>www.qiscet.edu.in</p>
+                <p>Office: 9 AM - 5:30 PM (Mon-Sat)</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- MODALS -->
+    <div class="modal" id="signinModal">
+        <div class="modal-box">
+            <span class="close">&times;</span>
+            <h2>Student Login</h2>
+            <form id="signinForm">
+                <input type="text" placeholder="Roll Number/Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal" id="signupModal">
+        <div class="modal-box">
+            <span class="close">&times;</span>
+            <h2>Student Registration</h2>
+            <form id="signupForm">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
